@@ -7,15 +7,15 @@ This simulation can be helpful in understanding the complexity involved in desig
 ### Project Structure
 This system is capable of managing multiple elevators in a building, assigning requests to these elevators, and moving the elevators between different floors to meet these requests. The core of the system consists of two classes: 
 
-Elevator: This class models the behavior of an individual elevator in the building. It is responsible for moving between floors, loading/unloading passengers, and servicing requests.
+- Elevator: This class models the behavior of an individual elevator in the building. It is responsible for moving between floors, loading/unloading passengers, and servicing requests.
 
-Building: This class represents a building that contains multiple elevators. It manages the queue of elevator requests and assigns requests to the available elevators in an efficient manner.
+- Building: This class represents a building that contains multiple elevators. It manages the queue of elevator requests and assigns requests to the available elevators in an efficient manner.
 
-ElevatorRequest: This class encapsulates a single elevator request. Each request contains an origin floor and a destination floor.
+- ElevatorRequest: This class encapsulates a single elevator request. Each request contains an origin floor and a destination floor.
 
-ElevatorManager: Manages elevator requests by assigning them to the elevators in the building.
+- ElevatorManager: Manages elevator requests by assigning them to the elevators in the building.
 
-Main: Serves as the entry point for the elevator management system. It initiates a building, starts the elevator manager, and allows users to make elevator requests via the console.
+- Main: Serves as the entry point for the elevator management system. It initiates a building, starts the elevator manager, and allows users to make elevator requests via the console.
 
 ### Features
 Multi-threading: Each elevator operates in its own thread, simulating real-world operations of elevators running concurrently.
