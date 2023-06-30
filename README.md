@@ -1,6 +1,6 @@
 # Elevator Management System
 ### Project Description
-This project is a simple simulation of an Elevator Management System written in Java. It models the behavior of a building with multiple elevators and simulates the functionality of elevators moving up and down floors, servicing requests, and loading/unloading passengers.
+A simple simulation of an Elevator Management System written in Java. It models the behavior of a building with multiple elevators and simulates the functionality of elevators moving up and down floors, servicing requests, and loading/unloading passengers.
 
 This simulation can be helpful in understanding the complexity involved in designing an efficient elevator scheduling system and can be extended to incorporate more advanced features.
 
